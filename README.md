@@ -12,11 +12,21 @@ The purpose of the this analysis is to edit or refactor the Excel VBA code utili
 *Note: The instructions stated to >Compare the stock performance between 2018 and 2018  as well as the execution times of the original script and the refactored script.*
 
 To perform the comparison of the original and refactored Stocks portfolio as it relates to the execution time, portions of the original VBA code from Module 2 were refactored.  Per the requirements provided the following were refactored:
-    - tickerIndex set to 0 [^a]
-    - tickers, tickerVolumes, tickerStartingPrices & tickerEndingPrices arrays created [^b]
-    - looping through the stock data to read and store the tickers, tickerVolumes, tickerStartingPrices & tickerEndingPrices row values [^c]
 
-- INSERT Pictures - 
+- tickerIndex set to 0 <sup>a</sup>
+    
+- tickers, tickerVolumes, tickerStartingPrices & tickerEndingPrices arrays created <sup>b</sup>
+    
+- looping through the stock data to read and store the tickers, tickerVolumes, tickerStartingPrices & tickerEndingPrices row values <sup>b</sup>
+
+<sup>a</sup> TickerIndex
+![Ticker Index code](https://user-images.githubusercontent.com/112449480/191654821-8adef8a1-fc23-4f97-b8b5-f1db8dc07246.png)
+
+
+ <sup>b</sup>
+![Array-Loop-Output code](https://user-images.githubusercontent.com/112449480/191655908-7186b0fb-9c25-4662-b532-b9ede68e0d62.png)
+
+ 
 
 ### Performance Results
 After running the refactored code for 2018 stock analysis I confirmed that the output matched the 2018 snapshot provided in the challenge instructions.
