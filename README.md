@@ -20,11 +20,13 @@ To perform the comparison of the original and refactored Stocks portfolio as it 
 - looping through the stock data to read and store the tickers, tickerVolumes, tickerStartingPrices & tickerEndingPrices row values <sup>b</sup>
 
 <sup>a</sup> TickerIndex
-![Ticker Index code](https://user-images.githubusercontent.com/112449480/191654821-8adef8a1-fc23-4f97-b8b5-f1db8dc07246.png)
+
+![Ticker Index code](https://user-images.githubusercontent.com/112449480/191656044-0193af5d-1af5-4382-a37f-7a4bfaf5fdc0.png)
 
 
- <sup>b</sup>
-![Array-Loop-Output code](https://user-images.githubusercontent.com/112449480/191655908-7186b0fb-9c25-4662-b532-b9ede68e0d62.png)
+
+ <sup>b</sup> tickers, tickerVolumes, tickerStartingPrices & tickerEndingPrices arrays, loops and output
+![Array-Loop-Output code](https://user-images.githubusercontent.com/112449480/191656158-05f3dbe7-d505-4c88-a1c8-fa5f87d626e5.png)
 
  
 
@@ -32,7 +34,9 @@ To perform the comparison of the original and refactored Stocks portfolio as it 
 After running the refactored code for 2018 stock analysis I confirmed that the output matched the 2018 snapshot provided in the challenge instructions.
 
 **2018 Stocks Analysis- refactored code**
-- INSERT PICTURES
+
+![VBA_Challenge_2018  Results refactored](https://user-images.githubusercontent.com/112449480/191656344-d8109fc8-f4d4-43ab-b405-bfc4157d8edf.png)
+
 
 
 ### Execution Time Results
